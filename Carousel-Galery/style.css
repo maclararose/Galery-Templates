@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container__div {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.title__header {
+  background-color: #DDD;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image__div--show {
+  height: 75%;
+}
+
+.image__div--show img {
+  width: 100%;
+}
+
+.images-miniatures__div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 250px;
+}
+
+.miniature__img {
+  height: 15px;
+  width: 15px;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: rgb(175, 163, 163);
+  border-radius: 100%;
+}
+
+.active {
+  opacity: 1;
+  background-color: #717171;
+}
+
+.control__span--next {
+  color: rgb(46, 40, 40);
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.control__span--before {
+  color: rgb(46, 40, 40);
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.controls__div--next {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 700px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.control__span--next:hover{
+  background-color: grey;
+  opacity: 0.3;
+}
+
+.controls__div--before {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -42px;
+  border-radius: 5px;
+}
+
+.control__span--before:hover{
+  background-color: grey;
+  opacity: 0.3;
+}
+
+.counter__span{
+  position: relative;
+  color: #FFF;
+  top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}

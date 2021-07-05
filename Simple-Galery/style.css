@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container__div{
+  background-color: rgb(141, 141, 141);
+  width: 700px;
+  margin: 0 auto;
+}
+
+.title__header{
+  background-color: #DDD;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image__div--show {
+  height: 75%;
+}
+
+.image__div--show img{
+  width: 100%;
+}
+
+.images-miniatures__div {
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.miniature__img {
+  height: 120px;
+  width: 120px;
+  opacity: 0.5;
+}
+
+.active{
+  opacity: 1;
+}
