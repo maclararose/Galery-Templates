@@ -41,4 +41,4 @@ And Done! You can edit the files.
 - __Maria Clara__ - Code and Documentation - [[LinkedIn](https://www.linkedin.com/in/mariaclarab/)]
 
 # License :page_facing_up:
-This project is under license MIT :round_pushpin:.
+This project is under license [[MIT](https://github.com/maclararose/Galery-Templates/blob/master/LICENSE.md)] :round_pushpin:.
