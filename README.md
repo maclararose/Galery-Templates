@@ -35,7 +35,7 @@ And Done! You can edit the files.
 - JavaScript
 
 # Version :pushpin:
-1.0.1
+1.0.2
 
 # Author :black_nib:
 - __Maria Clara__ - Code and Documentation - [[LinkedIn](https://www.linkedin.com/in/mariaclarab/)]

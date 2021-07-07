@@ -4,35 +4,35 @@
   box-sizing: border-box;
 }
 
-.div__container{
+.card__container {
   background-color: rgb(141, 141, 141);
   width: 700px;
   margin: 0 auto;
 }
 
-.header__title{
+.header__title {
   background-color: #DDD;
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.div__image--show {
+.card-image {
   height: 75%;
 }
 
-.div__image--show img{
+.card-image img {
   width: 100%;
 }
 
-.div__images-miniatures {
+.card-miniatures {
   height: 20%;
   display: flex;
   justify-content: space-evenly;
 
 }
 
-.img__miniature {
+.card-miniatures__miniature {
   height: 120px;
   width: 120px;
   opacity: 0.5;

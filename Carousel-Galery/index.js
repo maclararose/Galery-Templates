@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const miniatures = document.querySelectorAll(".img__miniature");
-  const preview = document.querySelector(".img__image--preview");
+  const miniatures = document.querySelectorAll(".card-miniatures__miniature");
+  const preview = document.querySelector(".card-image__preview");
   const beforeBtn = document.querySelector(".span__control--before");
   const nextBtn = document.querySelector(".span__control--next");
   const counter = document.querySelector(".span__counter");

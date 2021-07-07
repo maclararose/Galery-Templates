@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.div__container {
+.card-container {
   width: 700px;
   margin: 0 auto;
 }
@@ -16,22 +16,22 @@
   margin-bottom: 20px;
 }
 
-.div__image--show {
+.card-image {
   height: 75%;
 }
 
-.div__image--show img {
+.card-image img {
   width: 100%;
 }
 
-.div__images-miniatures {
+.card-miniatures {
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   padding: 15px 250px;
 }
 
-.img__miniature {
+.card-miniatures__miniature {
   height: 15px;
   width: 15px;
   opacity: 0.5;
@@ -57,9 +57,10 @@
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
+  margin-left: -760px;
 }
 
-.div__controls--next {
+.card__controls {
   position: absolute;
   margin-top: 200px;
   margin-left: 700px;
@@ -70,13 +71,6 @@
 .span__control--next:hover{
   background-color: grey;
   opacity: 0.3;
-}
-
-.div__controls--before {
-  position: absolute;
-  margin-top: 200px;
-  margin-left: -42px;
-  border-radius: 5px;
 }
 
 .span__control--before:hover {
