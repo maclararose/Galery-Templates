@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const miniatures = document.querySelectorAll(".miniature__img");
-  const preview = document.querySelector(".image-example__img");
+  const miniatures = document.querySelectorAll(".img__miniature");
+  const preview = document.querySelector(".img__image--preview");
   let currentImage = 0;
 
   const changeImage = (preview, img) => {

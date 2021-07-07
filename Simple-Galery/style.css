@@ -4,38 +4,39 @@
   box-sizing: border-box;
 }
 
-.container__div{
+.div__container{
   background-color: rgb(141, 141, 141);
   width: 700px;
   margin: 0 auto;
 }
 
-.title__header{
+.header__title{
   background-color: #DDD;
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.image__div--show {
+.div__image--show {
   height: 75%;
 }
 
-.image__div--show img{
+.div__image--show img{
   width: 100%;
 }
 
-.images-miniatures__div {
+.div__images-miniatures {
   height: 20%;
   display: flex;
   justify-content: space-evenly;
 
 }
 
-.miniature__img {
+.img__miniature {
   height: 120px;
   width: 120px;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .active{

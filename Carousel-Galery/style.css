@@ -4,34 +4,34 @@
   box-sizing: border-box;
 }
 
-.container__div {
+.div__container {
   width: 700px;
   margin: 0 auto;
 }
 
-.title__header {
+.header__title {
   background-color: #DDD;
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.image__div--show {
+.div__image--show {
   height: 75%;
 }
 
-.image__div--show img {
+.div__image--show img {
   width: 100%;
 }
 
-.images-miniatures__div {
+.div__images-miniatures {
   margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   padding: 15px 250px;
 }
 
-.miniature__img {
+.img__miniature {
   height: 15px;
   width: 15px;
   opacity: 0.5;
@@ -45,21 +45,21 @@
   background-color: #717171;
 }
 
-.control__span--next {
+.span__control--next {
   color: rgb(46, 40, 40);
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
 }
 
-.control__span--before {
+.span__control--before {
   color: rgb(46, 40, 40);
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
 }
 
-.controls__div--next {
+.div__controls--next {
   position: absolute;
   margin-top: 200px;
   margin-left: 700px;
@@ -67,24 +67,24 @@
   border-radius: 5px;
 }
 
-.control__span--next:hover{
+.span__control--next:hover{
   background-color: grey;
   opacity: 0.3;
 }
 
-.controls__div--before {
+.div__controls--before {
   position: absolute;
   margin-top: 200px;
   margin-left: -42px;
   border-radius: 5px;
 }
 
-.control__span--before:hover{
+.span__control--before:hover {
   background-color: grey;
   opacity: 0.3;
 }
 
-.counter__span{
+.span_counter {
   position: relative;
   color: #FFF;
   top: 40px;

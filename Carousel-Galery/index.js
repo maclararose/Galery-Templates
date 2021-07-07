@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const miniatures = document.querySelectorAll(".miniature__img");
-  const preview = document.querySelector(".image-example__img");
-  const beforeBtn = document.querySelector(".control__span--before");
-  const nextBtn = document.querySelector(".control__span--next");
-  const counter = document.querySelector(".counter__span");
+  const miniatures = document.querySelectorAll(".img__miniature");
+  const preview = document.querySelector(".img__image--preview");
+  const beforeBtn = document.querySelector(".span__control--before");
+  const nextBtn = document.querySelector(".span__control--next");
+  const counter = document.querySelector(".span__counter");
   let currentImage = 0;
 
   const changeImage = (preview, img) => {
